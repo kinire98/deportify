@@ -10,6 +10,8 @@ Utilizaremos este documento para guardar las cosas que hacer
 ## Para todos
 index.html
 plantilla para sección
+plantilla para producto
+plantilla para producto
 ## Diego
 Sección deportes montaña -> diego.html
 Usuario (usar display:flex;) -> diego2.html

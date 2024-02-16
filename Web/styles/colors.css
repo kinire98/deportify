@@ -1,0 +1,16 @@
+/*
+ * Estos colores se utilizarán en toda la página
+ * Para utilizarlo
+ * @import 'styles/colors.css';
+ * var(--fondo);
+ */
+
+:root {
+  --fondo: #fff;
+  --letra: #05161A;
+  --fondo-header-footer: #072E33;
+  --letra-header-footer: #6DA5C0;
+  --alt-1: #0C7075;
+  --alt-2: #0F969C;
+  --alt-3: #294D61;
+}

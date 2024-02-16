@@ -6,6 +6,8 @@ Utilizaremos este documento para guardar las cosas que hacer
 - Respetar la estructura de colores
 - Hacer un commit cada poco
 - Investigar sobre display flex para posicionar elementos
+- Para los iconos utilizar [font-awesome](https://fontawesome.com/search)
+- Pegar esto al principio de cada CSS para las fuentes `@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')`
 
 ## Para todos
 index.html

@@ -1,0 +1,80 @@
+@import '../../styles/colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*  {
+  font-family: "Lato", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  padding-bottom: 50px;
+  font-size: 1.2em;
+  flex-direction: column;
+}
+footer a { 
+  color: var(--letra-header-footer);
+  text-decoration: none;
+}
+footer a:visited {
+  color: var(--letra-header-footer);
+}
+footer > div > img {
+  height: 250px;
+  width: auto;
+}
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+footer > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+}
+footer > div > div > div.sections {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+footer img {
+  width: 50px;
+}
+footer > div > div > div > div {
+  margin-block: 15px;
+}
+footer > div > div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer > div > div:nth-child(3) > div#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 25px;
+}
+#contact > i {
+  margin-inline: 15px;
+  font-size: 1.5em;
+}
+footer > div > div:nth-child(3) > div#copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

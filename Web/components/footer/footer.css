@@ -1,4 +1,5 @@
 @import '../../styles/colors.css';
+@import '../../styles/root.css';
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *  {
@@ -22,14 +23,18 @@ footer {
 }
 footer a { 
   color: var(--letra-header-footer);
-  text-decoration: none;
 }
 footer a:visited {
   color: var(--letra-header-footer);
 }
 footer > div > img {
+  height: auto;
+  width: 25%;
+}
+footer > div:nth-child(1) {
   height: 250px;
-  width: auto;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 footer > div {
   display: flex;
@@ -69,7 +74,7 @@ footer > div > div:nth-child(3) > div#contact {
   justify-content: center;
   margin-block: 25px;
 }
-#contact > i {
+#contact > a {
   margin-inline: 15px;
   font-size: 1.5em;
 }

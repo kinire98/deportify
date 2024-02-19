@@ -9,6 +9,7 @@ Utilizaremos este documento para guardar las cosas que hacer
 - Para los iconos utilizar [font-awesome](https://fontawesome.com/search)
 - Pegar esto al principio de cada CSS para las fuentes `@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')`
 - Leer bien los comentarios de cada plantilla al copiarla
+- Importar los estilos root.css en cada hoja de css
 
 ## Para todos
 index.html

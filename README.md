@@ -12,23 +12,23 @@ Utilizaremos este documento para guardar las cosas que hacer
 - Importar los estilos root.css en cada hoja de css
 
 ## Para todos
-index.html
-plantilla para sección
-plantilla para producto
-plantilla para producto
+index.html  
+plantilla para sección  
+plantilla para producto  
+plantilla para producto  
 ## Diego
-Sección deportes montaña -> diego.html
-Usuario (usar display:flex;) -> diego2.html
+Sección deportes montaña -> diego.html  
+Usuario (usar display:flex;) -> diego2.html  
 ## Iván
-Sección deportes acuáticos -> ivan.html
-Sobre nosotros -> ivan2.html
+Sección deportes acuáticos -> ivan.html  
+Sobre nosotros -> ivan2.html  
 ## Lamine
-Sección equipamiento deportivo -> lamine.html
-Preguntas frecuentes -> lamine2.html
-Politica de cookies
-Terminos y condiciones 
+Sección equipamiento deportivo -> lamine.html  
+Preguntas frecuentes -> lamine2.html  
+Politica de cookies  
+Terminos y condiciones   
 ## Iker
-Sección deportes urbanos -> iker.html
-segunda vida -> iker2.html
-header
-footer
+Sección deportes urbanos -> iker.html  
+segunda vida -> iker2.html  
+header  
+footer  

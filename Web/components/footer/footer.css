@@ -23,7 +23,7 @@ footer > div > img {
   width: 25%;
 }
 footer > div:nth-child(1) {
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   margin-bottom: 50px;
 }

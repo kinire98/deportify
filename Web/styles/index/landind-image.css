@@ -1,0 +1,46 @@
+#landing-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+  background-color: #00000066;
+  background-attachment: fixed;
+  /* imagen ejemplo */
+  background-blend-mode: darken;
+  color: var(--fondo);
+  animation: bg-change 15s linear infinite;
+  transition: background-image 0.3s ease-in-out;
+  background-size: cover;
+}
+#landing-image > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#landing-image img {
+  width: 150px;
+  height: auto;
+}
+#landing-image h2 {
+  position: relative;
+  top: 15vh;
+}
+@keyframes bg-change {
+  0% {
+    background-image: url('../../img/urban_sports.jpg');
+  } 
+  25% {
+    background-image: url('../../img/mountain_sport.jpg');
+  }
+  50% {
+    background-image: url('../../img/water_sport.jpg'); 
+  }
+  75% {
+    background-image: url('../../img/sports_equipment.jpg');
+  }
+  100% {
+    background-image: url('../../img/urban_sports.jpg');
+  }
+}

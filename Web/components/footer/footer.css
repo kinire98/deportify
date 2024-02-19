@@ -41,7 +41,7 @@ footer > div > div {
   flex-direction: column;
   width: 33%;
 }
-footer > div > div > div.sections {
+.sections {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -59,7 +59,7 @@ footer > div > div:nth-child(3) {
   justify-content: center;
   flex-direction: column;
 }
-footer > div > div:nth-child(3) > div#contact {
+#contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +69,7 @@ footer > div > div:nth-child(3) > div#contact {
   margin-inline: 15px;
   font-size: 1.5em;
 }
-footer > div > div:nth-child(3) > div#copyright {
+#copyright {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,0 +1,13 @@
+#comments  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 75px;
+}
+#comments h3 {
+  font-size: 2.5em;
+}
+#comments p {
+  font-size: 1.5em;
+}

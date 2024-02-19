@@ -9,12 +9,12 @@
   /* imagen ejemplo */
   background-blend-mode: darken;
   color: var(--fondo);
-  animation: bg-change 15s linear infinite;
+  animation: bg-change 20s linear infinite;
   transition: background-image 0.3s ease-in-out;
   background-size: cover;
 }
 #landing-image > div {
-  display: flex;
+
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -28,16 +28,16 @@
   top: 15vh;
 }
 @keyframes bg-change {
-  0% {
+  0%, 20% {
     background-image: url('../../img/urban_sports.jpg');
-  } 
-  25% {
+  }
+  25%, 45% {
     background-image: url('../../img/mountain_sport.jpg');
   }
-  50% {
+  50%, 70% {
     background-image: url('../../img/water_sport.jpg'); 
   }
-  75% {
+  75%, 95% {
     background-image: url('../../img/sports_equipment.jpg');
   }
   100% {

@@ -12,7 +12,7 @@ header {
   color: var(--letra-header-footer);
   padding: 15px;
 }
-header > a > img {
+header img {
   width: 50px;
   position: relative;
   right: 6em;
@@ -20,7 +20,7 @@ header > a > img {
 header a:visited {
   color: var(--letra-header-footer);
 }
-header > div#links {
+#links {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -28,7 +28,7 @@ header > div#links {
   text-transform: uppercase;
 }
 
-header > div#icons {
+#icons {
   width: 20%;
   display: flex;
   align-items: center;

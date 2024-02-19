@@ -3,6 +3,7 @@
 
 * {
   font-family: "Lato", sans-serif;
+  transition: all 0.3s;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   box-sizing: border-box;
   background-color: var(--fondo);
   color: var(--letra);
+  overflow-x: hidden;
 }
 
 a {

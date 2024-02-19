@@ -11,6 +11,7 @@ footer {
   padding-bottom: 50px;
   font-size: 1.2em;
   flex-direction: column;
+  min-height: auto;
 }
 footer a { 
   color: var(--letra-header-footer);
@@ -73,4 +74,27 @@ footer > div > div:nth-child(3) {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+  footer > div:nth-child(2) {
+    flex-direction: column;
+  }
+  footer > div:nth-child(2) > div {
+    width: 100%;
+  }
+  .contact, .sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%),1fr));
+    width: 100%;
+    padding: 10px;
+  }
+  .contact > div, .sections > div {
+    margin-inline: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  footer > div:nth-child(1) {
+    display: none;
+  }
 }

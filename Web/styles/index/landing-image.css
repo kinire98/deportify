@@ -14,10 +14,12 @@
   background-size: cover;
 }
 #landing-image > div {
-
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  position: relative;
+  left: 20px;
 }
 #landing-image img {
   width: 150px;
@@ -42,5 +44,11 @@
   }
   100% {
     background-image: url('../../img/urban_sports.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #landing-image h2 {
+    text-align: center;
   }
 }

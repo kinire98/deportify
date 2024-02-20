@@ -9,11 +9,43 @@ main {
     margin-right: 15%;
 }
 
-ul {
-    list-style-image: url();
-}
-
 .main1 {
     width: 100%;
 
+}
+
+/* Estilos para el menú desplegable con botones */
+.objeto {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.boton {
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.respuesta {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: #f9f9f9;
+    transition: max-height 5s ease;
+}
+
+.respuesta p {
+    margin: 0; /* Para evitar el espacio extra */
+    max-height: 1000px;
+}
+
+/* Mostrar respuesta al hacer click en el botón */
+.boton:focus + .respuesta {
+    max-height: 1000px; /* Altura suficiente para mostrar todo el contenido */
 }

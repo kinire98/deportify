@@ -1,0 +1,19 @@
+@import '../styles/root.css';
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+@import '../styles/icons/css/pro.min.css';
+@import '../styles/index/index.css';
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul {
+    list-style-image: url();
+}
+
+.main1 {
+    width: 100%;
+
+}

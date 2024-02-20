@@ -53,20 +53,31 @@
   height: auto;
 }
 
-.figures button {
-  /*visibility: hidden;
-  opacity: 0;*/
+.figures a {
+  visibility: hidden;
+  opacity: 0;
   position: relative;
-  bottom: 125px;
-  width: 65%;
+  bottom: 100px;
+  width: 70%;
   font-size: 1.2em;
   cursor: pointer;
-
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  padding: 10px;
+  border: 1px solid var(--letra-header-footer);
+  border-radius: 1rem;
+  text-align: center;
 }
-.figures button:hover {
+.figures a:hover {
   cursor: pointer;
+  background-color: var(--letra-header-footer);
+  color: var(--fondo-header-footer);
 }
-
+.figures > figure:hover > a {
+  visibility: visible;
+  opacity: 1;
+  bottom: 125px;
+}
 
 @media screen and (max-width: 800px) {
   #bestsellers .figures {
@@ -80,18 +91,18 @@
   animation: mountain 30s linear infinite;
 }
 @keyframes mountain {
-  0%, 20% {
+  0%, 24% {
     visibility: visible;
     opacity: 1;
   }
   24%, 25% {
     display: none;
   }
-  25%, 90% {
+  25%, 99% {
     visibility: hidden;
     opacity: 0;
   }
-  89%, 90% {
+  98%, 99% {
     display: block;
   }
   100% {
@@ -103,24 +114,26 @@
   animation: acuatic 30s linear infinite;
 }
 @keyframes acuatic {
-  0%, 25% {
+  0%, 24% {
     visibility: hidden;
     opacity: 0;
+  }
+  0%, 23% {
     display: none;
   }
   24%, 25% {
     display: block;
   }
-  27%, 45% {
+  25%, 49% {
     visibility: visible;
     opacity: 1;
+  }
+  49%,50% {
+    display: none;
   }
   50%, 100% {
     visibility: hidden;
     opacity: 0;
-  }
-  49%,50% {
-    display: none;
   }
 }
 #urban {
@@ -134,7 +147,7 @@
   49%, 50% {
     display: block;
   }
-  51%, 70% {
+  51%, 74% {
     visibility: visible;
     opacity: 1;
   }
@@ -157,7 +170,7 @@
   74%, 75% {
     display: block;
   }
-  76%, 95% {
+  76%, 99% {
     visibility: visible;
     opacity: 1;
   }

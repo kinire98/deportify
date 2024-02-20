@@ -1,0 +1,171 @@
+#bestsellers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  min-height: 25vh;
+}
+#section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+  height: 600px;
+}
+#bestsellers h3 {
+  font-size: 2em;
+}
+#bestsellers h5 {
+  font-size: 1.1em;
+  position: relative;
+  top: 45px;
+}
+#bestsellers .section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+}
+#bestsellers .section h4 {
+  font-size: 1.5em;
+}
+#bestsellers .figures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#bestsellers .figures figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.figures figcaption {
+  font-size: 1.5em;
+}
+.figures img {
+  margin-bottom: 25px;
+  width: 350px;
+  height: auto;
+}
+
+.figures button {
+  /*visibility: hidden;
+  opacity: 0;*/
+  position: relative;
+  bottom: 125px;
+  width: 65%;
+  font-size: 1.2em;
+  cursor: pointer;
+
+}
+.figures button:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px) {
+  #bestsellers .figures {
+    flex-direction: column;
+  }
+  #section-container {
+    height: 1200px;
+  }
+}
+#mountain  {
+  animation: mountain 30s linear infinite;
+}
+@keyframes mountain {
+  0%, 20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  24%, 25% {
+    display: none;
+  }
+  25%, 90% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  89%, 90% {
+    display: block;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+#acuatic {
+  animation: acuatic 30s linear infinite;
+}
+@keyframes acuatic {
+  0%, 25% {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  24%, 25% {
+    display: block;
+  }
+  27%, 45% {
+    visibility: visible;
+    opacity: 1;
+  }
+  50%, 100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  49%,50% {
+    display: none;
+  }
+}
+#urban {
+  animation: urban 30s linear infinite;
+}
+@keyframes urban {
+  0%, 50% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  49%, 50% {
+    display: block;
+  }
+  51%, 70% {
+    visibility: visible;
+    opacity: 1;
+  }
+  74%, 75% {
+    display: none;
+  }
+  75%, 100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+#equipment {
+  animation: equipment 30s linear infinite;
+}
+@keyframes equipment {
+  0%, 75% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  74%, 75% {
+    display: block;
+  }
+  76%, 95% {
+    visibility: visible;
+    opacity: 1;
+  }
+  99%, 100% {
+    display: none;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}

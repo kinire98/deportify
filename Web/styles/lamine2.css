@@ -1,8 +1,6 @@
 @import '../styles/root.css';
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
-@import '../styles/icons/css/pro.min.css';
-@import '../styles/index/index.css';
 
 main {
     margin-left: 15%;
@@ -10,14 +8,15 @@ main {
 }
 
 .main1 {
-    width: 100%;
-
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 /* Estilos para el menú desplegable con botones */
 .objeto {
     list-style-type: none;
     margin-bottom: 20px;
+    height: 50px;
 }
 
 .boton {
@@ -30,14 +29,15 @@ main {
     text-align: left;
     font-size: 20px;
     font-weight: bold;
+    color: var(--letra);
 }
 
 .respuesta {
-    max-height: 0;
-    overflow: hidden;
-    padding: 0 10px;
-    background-color: #f9f9f9;
-    transition: max-height 5s ease;
+  overflow: hidden;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+  max-height: 0;
+  transition: all 5s ease;
 }
 
 .respuesta p {
@@ -47,5 +47,8 @@ main {
 
 /* Mostrar respuesta al hacer click en el botón */
 .boton:focus + .respuesta {
-    max-height: 1000px; /* Altura suficiente para mostrar todo el contenido */
+  max-height: 1000px;
+}
+.boton:not(:focus) + .respuesta {
+  transition: none;
 }

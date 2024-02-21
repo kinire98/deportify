@@ -1,3 +1,4 @@
+@import '../../components/product/product.css';
 #bestsellers {
   display: flex;
   align-items: center;
@@ -38,47 +39,6 @@
   justify-content: center;
   flex-direction: row;
 }
-#bestsellers .figures figure {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.figures figcaption {
-  font-size: 1.5em;
-}
-.figures img {
-  margin-bottom: 25px;
-  width: 350px;
-  height: auto;
-}
-
-.figures a {
-  visibility: hidden;
-  opacity: 0;
-  position: relative;
-  bottom: 100px;
-  width: 70%;
-  font-size: 1.2em;
-  cursor: pointer;
-  background-color: var(--fondo-header-footer);
-  color: var(--letra-header-footer);
-  padding: 10px;
-  border: 1px solid var(--letra-header-footer);
-  border-radius: 1rem;
-  text-align: center;
-}
-.figures a:hover {
-  cursor: pointer;
-  background-color: var(--letra-header-footer);
-  color: var(--fondo-header-footer);
-}
-.figures > figure:hover > a {
-  visibility: visible;
-  opacity: 1;
-  bottom: 125px;
-}
-
 @media screen and (max-width: 800px) {
   #bestsellers .figures {
     flex-direction: column;

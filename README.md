@@ -12,6 +12,7 @@ Utilizaremos este documento para guardar las cosas que hacer
 
 ## Para todos
 index.html  
+    Cuando añadamos productos cambiar las imágenes de los productos en la parte de bestseller
 plantilla para sección  
 plantilla para producto  
 plantilla para producto  

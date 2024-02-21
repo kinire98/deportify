@@ -16,7 +16,7 @@ main {
 .objeto {
     list-style-type: none;
     margin-bottom: 20px;
-    height: 50px;
+    height: 100px;
 }
 
 .boton {
@@ -51,4 +51,35 @@ main {
 }
 .boton:not(:focus) + .respuesta {
   transition: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .objeto {
+    height: 150px;
+  } 
+}
+@media screen and (max-width: 830px) {
+  .objeto {
+    height: 200px;
+  }  
+}
+@media screen and (max-width: 590px) {
+  .objeto {
+    height: 250px;
+  } 
+}
+@media screen and (max-width: 490px) {
+  .objeto {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .objeto {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .objeto {
+    height: 400px;
+  }
 }

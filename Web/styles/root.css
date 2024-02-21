@@ -23,3 +23,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.clear {
+  clear: both;
+}

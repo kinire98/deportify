@@ -1,0 +1,76 @@
+@import '../../styles/root.css';
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  max-width: 500px;
+}
+.product:hover {
+  cursor: pointer;
+}
+.product > figcaption {
+  text-align: center;
+}
+.product > figcaption > .nombre_producto {
+  font-size: 1.5em;
+}
+.product > figcaption > .precio_producto {
+  font-size: 1em;
+}
+
+.product .hover {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.product > div {
+  position: relative;
+  height: 500px;
+  width: 350px;
+}
+
+.product img {
+  margin-bottom: 25px;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.product > a {
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  bottom: 175px;
+  width: 250px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  padding: 10px;
+  border: 1px solid var(--letra-header-footer);
+  border-radius: 1rem;
+  text-align: center;
+}
+.product > a:hover {
+  cursor: pointer;
+  background-color: var(--letra-header-footer);
+  color: var(--fondo-header-footer);
+}
+.product:hover > a {
+  visibility: visible;
+  opacity: 1;
+  bottom: 200px;
+}
+.product:hover .hover {
+  opacity: 1;
+  visibility: visible;
+}
+.product:hover .visible {
+  opacity: 0;
+  visibility: hidden;
+}

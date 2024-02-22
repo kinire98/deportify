@@ -1,0 +1,22 @@
+#menu {
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  z-index: 998;
+  top: 0;
+}
+#menu > div {
+  width: 50%;
+}
+@media screen and (max-width: 950px) {
+  #menu {
+    width: 100% !important;
+    height: 25vh;
+    padding-top: 3vh;
+  }
+}

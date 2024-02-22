@@ -1,0 +1,36 @@
+#section-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+  background-color: #00000066;
+  background-attachment: fixed;
+  /* imagen ejemplo */
+  background-blend-mode: darken;
+  color: var(--fondo);
+  background-size: cover;
+  background-image: url('../../../img/mountain_sport.jpg');
+}
+#section-landing > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  left: 20px;
+}
+#section-landing img {
+  width: 150px;
+  height: auto;
+}
+#section-landing h2 {
+  position: relative;
+  top: 15vh;
+}
+
+@media screen and (max-width: 500px) {
+  #section-landing h2 {
+    text-align: center;
+  }
+}

@@ -21,7 +21,10 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+ text-decoration: underline;
+}
+a:visited {
+  color: var(--letra);
 }
 .clear {
   clear: both;

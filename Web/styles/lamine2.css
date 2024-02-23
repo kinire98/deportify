@@ -1,0 +1,85 @@
+@import '../styles/root.css';
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.main1 {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* Estilos para el menú desplegable con botones */
+.objeto {
+    list-style-type: none;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.boton {
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--letra);
+}
+
+.respuesta {
+  overflow: hidden;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+  max-height: 0;
+  transition: all 5s ease;
+}
+
+.respuesta p {
+    margin: 0; /* Para evitar el espacio extra */
+    max-height: 1000px;
+}
+
+/* Mostrar respuesta al hacer click en el botón */
+.boton:focus + .respuesta {
+  max-height: 1000px;
+}
+.boton:not(:focus) + .respuesta {
+  transition: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .objeto {
+    height: 150px;
+  } 
+}
+@media screen and (max-width: 830px) {
+  .objeto {
+    height: 200px;
+  }  
+}
+@media screen and (max-width: 590px) {
+  .objeto {
+    height: 250px;
+  } 
+}
+@media screen and (max-width: 490px) {
+  .objeto {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .objeto {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .objeto {
+    height: 400px;
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../styles/root.css';
+@import '../header/header.css';
+@import '../footer/footer.css';
+@import './css_modules/images.css';
+@import './css_modules/info.css';
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 95vh;
+}
+@media screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+  }
+  main * {
+    margin-block: 15px;
+  }
+}

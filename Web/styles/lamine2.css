@@ -2,14 +2,13 @@
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
 
-main {
-    margin-left: 15%;
-    margin-right: 15%;
-}
+
 
 .main1 {
   width: 100%;
   margin-bottom: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* Estilos para el menú desplegable con botones */
@@ -82,4 +81,41 @@ main {
   .objeto {
     height: 400px;
   }
+}
+
+main img {
+  width: 200px;
+  height: auto;
+}
+#landing-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 100%;
+  background-color: #00000066;
+  background-attachment: fixed;
+  /* imagen ejemplo */
+  background-blend-mode: darken;
+  color: var(--fondo);
+  background-size: cover;
+  background-image: url('../img/faqs.png');
+  
+}
+#landing-image > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  left: 20px;
+}
+#landing-image img {
+  width: 150px;
+  height: auto;
+}
+#landing-image h2 {
+  position: relative;
+  top: 15vh;
 }

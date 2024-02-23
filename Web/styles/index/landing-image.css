@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 85vh;
+  width: 100%;
   background-color: #00000066;
   background-attachment: fixed;
   /* imagen ejemplo */

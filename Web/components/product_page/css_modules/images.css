@@ -1,0 +1,24 @@
+#images { 
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+#images > img {
+  position: absolute; 
+  transition: all .3s;
+}
+
+#visible, #images:hover > #hover {
+  opacity: 1;
+  visibility: visible;
+}
+#hover, #images:hover > #visible {
+  opacity: 0;
+  visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+  #images > img {
+    right: 50px;
+  } 
+}

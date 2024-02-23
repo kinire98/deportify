@@ -1,0 +1,53 @@
+#menu {
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  z-index: 998;
+  top: 0;
+  font-size: 2em;
+  overflow: hidden;
+}
+#menu > div {
+  width: 75%;
+  margin-block: 50px;
+}
+#menu button {
+  color: var(--letra-header-footer);
+  background-color: var(--fondo-header-footer);
+  border: 1px solid var(--letra-header-footer);
+  cursor: pointer;
+  transition: all .1s;
+  font-size: .75em;
+}
+#menu button:hover {
+  color: var(--fondo-header-footer);
+  background-color: var(--letra-header-footer);
+}
+#menu button:active {
+  background-color: var(--fondo); 
+}
+#tamano button {
+  width: 50px;
+}
+@media screen and (max-width: 950px) {
+  #menu {
+    width: 100% !important;
+    height: 25vh;
+    padding-top: 56px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #menu > div { 
+    width: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  #menu {
+    font-size: 1.4em;
+  }
+}

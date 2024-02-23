@@ -74,3 +74,28 @@
   opacity: 0;
   visibility: hidden;
 }
+
+
+@media screen and (max-width: 430px) {
+  .product, .product img {
+    width: 250px;
+  }
+  .product {
+    left: 0px;
+  }
+  .product img {
+    left: -100px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .product, .product img {
+    width: 250px;
+  }
+  .product {
+    left: -30px;
+  }
+  .product img {
+    left: -100px;
+  }
+}
+

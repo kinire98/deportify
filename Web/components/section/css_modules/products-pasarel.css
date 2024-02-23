@@ -1,0 +1,25 @@
+@import './products-grid.css';
+@import './menu.css';
+#products-pasarel {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#products-pasarel > div:nth-child(1) {
+  width: 17.5%;
+  min-height: 100px;
+}
+#products-pasarel > div:nth-child(2) {
+  width: 80%;
+  min-height: 100px;
+}
+@media screen and (max-width: 950px) {
+  #products-pasarel {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+}

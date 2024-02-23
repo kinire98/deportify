@@ -6,4 +6,9 @@
 @import './bestsellers.css';
 @import './about-us.css';
 @import './google-maps.css';
-
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,45 @@
+#about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#about-us > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#about-us > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#about-us h2{
+    text-align: center;
+    font-size: 2em;
+}
+#about-us img{
+    margin-bottom: 15px;
+}
+#about-us p{
+    text-align: justify;   
+    margin: 10vh;
+}
+#about-us a{
+    width: 150px;
+    text-align: center;
+    background-color: var(--alt-3);
+    color: var(--fondo);
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left:  6px;
+    padding-right: 6px;
+    border-radius: 7px;
+}
+
+#about-us a:hover{
+    text-decoration: underline;
+}

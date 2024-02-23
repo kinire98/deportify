@@ -59,3 +59,39 @@ i{
     width: 15vh;
     height: 6vh;
 }
+
+
+body {
+    background-color: #00000066;
+    background-attachment: fixed;
+    /* imagen ejemplo */
+    background-blend-mode: darken;
+    color: var(--fondo);
+    animation: bg-change 20s linear infinite;
+    transition: background-image 0.3s ease-in-out;
+    background-size: cover;
+  }
+  @keyframes bg-change {
+    0%, 20% {
+      background-image: url('../img/urban_sports.jpg');
+    }
+    25%, 45% {
+      background-image: url('../img/mountain_sport.jpg');
+    }
+    50%, 70% {
+      background-image: url('../img/water_sport.jpg'); 
+    }
+    75%, 95% {
+      background-image: url('../img/sports_equipment.jpg');
+    }
+    100% {
+      background-image: url('../img/urban_sports.jpg');
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #landing-image h2 {
+      text-align: center;
+    }
+  }
+  

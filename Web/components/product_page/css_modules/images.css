@@ -5,6 +5,8 @@
 }
 
 #images > img {
+  width: 500px;
+  height: auto;
   position: absolute; 
   transition: all .3s;
 }

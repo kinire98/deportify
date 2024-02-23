@@ -1,9 +1,7 @@
 @import '../../styles/root.css';
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
-body{
-    color: var(--letra-header-footer);
-}
+
 main {
     display: flex;
     align-items: center;
@@ -58,9 +56,17 @@ i{
     border-radius: 7px;   
     width: 15vh;
     height: 6vh;
+    cursor:pointer;
+}
+#register input:hover{
+  background-color: var(--fondo);
+  color: var(--alt-3);
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> c4b2b9f2ad3c7a491dd91576cc29cdc1ddf89f4a
 main {
     background-color: #00000066;
     background-attachment: fixed;

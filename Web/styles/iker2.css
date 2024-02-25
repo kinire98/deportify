@@ -1,3 +1,47 @@
 @import './root.css';
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
+@import './index/landing-image.css';
+#landing-image {
+  background-image: url('../img/recycle.jpg') !important;
+  animation: none !important;
+  margin-bottom: 50px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-block: 50px;
+}
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+main h3 {
+  font-size: 2em;
+}
+main p {
+  font-size: 1.5em;
+}
+
+.img-txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.img-txt.reverse {
+  flex-direction: row-reverse;
+}
+.img-txt img {
+  width: 45%;
+}
+.img-txt p {
+  width: 45%;
+}
+

@@ -13,6 +13,8 @@ footer {
   flex-direction: column;
   min-height: auto;
   z-index: 999;
+  box-shadow: 0 0 20px var(--fondo-header-footer),
+  0 0 20px var(--fondo-header-footer);
 }
 footer img {
   border-radius: 0;

@@ -58,6 +58,25 @@ main p {
 .img-txt p {
   width: 45%;
 }
+#marketplace-subscription {
+  padding-block: 30px;
+}
+#marketplace-subscription a {
+  padding: 10px 50px;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  display: block;
+  border-radius: 5rem;
+  border: 1px solid var(--fondo-header-footer);
+}
+#marketplace-subscription a:hover {
+  color: var(--fondo-header-footer);
+  background-color: var(--letra-header-footer);
+  border: 1px solid var(--letra-header-footer);
+}
+#marketplace-subscription a:active {
+  background-color: transparent;
+}
 a i {
   margin-left: 15px;
 }

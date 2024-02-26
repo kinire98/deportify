@@ -21,6 +21,7 @@
   background-color: var(--alt-1);
   border-radius: 1em;
   z-index: 1;
+  box-shadow: 0 0 15px #000;
 }
 .pretty-img .std-bg.alt-2 {
   background-color: var(--alt-2);

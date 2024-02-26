@@ -2,3 +2,43 @@
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
 
+article {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#landing-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    background-color: #00000066;
+    background-attachment: fixed;
+    /* imagen ejemplo */
+    background-blend-mode: darken;
+    color: var(--fondo);
+    background-size: cover;
+    background-image: url('../img/tc.png');
+    
+  }
+  #landing-image > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    left: 20px;
+  }
+  #landing-image img {
+    width: 150px;
+    height: auto;
+  }
+  #landing-image h2 {
+    position: relative;
+    top: 15vh;
+  }
+  

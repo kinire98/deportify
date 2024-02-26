@@ -58,6 +58,9 @@ main p {
 .img-txt p {
   width: 45%;
 }
+a i {
+  margin-left: 15px;
+}
 @media screen and (max-width: 1040px) {
   .img-txt {
     flex-direction: column;

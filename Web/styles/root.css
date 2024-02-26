@@ -33,3 +33,6 @@ a:visited {
 img {
   border-radius: 1em;
 }
+main img:not(#landing-image img, #section-landing img) {
+  box-shadow: 0 0 15px #000;
+}

@@ -1,0 +1,20 @@
+#github {
+  margin-top: 50px;
+}
+
+#github a {
+  display: block;
+  background-color: #0D1117;
+  color: #C9D1D9;
+  padding: 5px 50px;
+  border-radius: 5rem;
+  transition: all .5s;
+}
+#github a:hover {
+  color: #0D1117;
+  background-color: #C9D1D9;
+}
+
+#github i {
+  margin-left: 10px;
+}

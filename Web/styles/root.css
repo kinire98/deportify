@@ -30,3 +30,6 @@ a:visited {
 .clear {
   clear: both;
 }
+img {
+  border-radius: 1em;
+}

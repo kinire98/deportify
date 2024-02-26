@@ -1,0 +1,107 @@
+@import '../../styles/colors.css';
+@import '../../styles/root.css';
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  padding-bottom: 50px;
+  font-size: 1.2em;
+  flex-direction: column;
+  min-height: auto;
+  z-index: 999;
+  box-shadow: 0 0 20px var(--fondo-header-footer),
+  0 0 20px var(--fondo-header-footer);
+}
+footer img {
+  border-radius: 0;
+}
+footer a { 
+  color: var(--letra-header-footer);
+}
+footer a:visited {
+  color: var(--letra-header-footer);
+}
+footer > div > img {
+  height: auto;
+  width: 25%;
+}
+footer > div:nth-child(1) {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+footer > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+}
+.sections {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+footer img {
+  width: 50px;
+}
+footer > div > div > div > div {
+  margin-block: 15px;
+}
+footer > div > div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 25px;
+}
+#contact > a {
+  margin-inline: 15px;
+  font-size: 1.5em;
+}
+#copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+  footer > div:nth-child(2) {
+    flex-direction: column;
+  }
+  footer > div:nth-child(2) > div {
+    width: 100%;
+  }
+  .contact, .sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%),1fr));
+    place-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .contact > div, .sections > div {
+    margin-inline: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  footer > div:nth-child(1) {
+    display: none;
+  }
+}

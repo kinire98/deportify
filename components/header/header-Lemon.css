@@ -1,0 +1,75 @@
+@import '../../styles/colors.css';
+@import '../../styles/root.css';
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100vw;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  padding: 15px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  box-shadow: 0 0 20px var(--fondo-header-footer),
+  0 0 20px var(--fondo-header-footer);
+}
+header img {
+  width: 50px;
+  position: relative;
+  right: 6em;
+  border-radius: 0;
+}
+header a:visited {
+  color: var(--letra-header-footer);
+}
+header #links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 35%;
+  text-transform: uppercase;
+}
+
+header #icons {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+header #icons > a > i {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 1300px) {
+  header #links {
+    width: 40%;
+  } 
+}
+@media screen and (max-width: 1100px;) {
+  header #links {
+    justify-content: space-between;
+  } 
+}
+@media screen and (max-width: 950px) {
+  header #links {
+    display: none;
+  }
+  header img {
+    right: -5vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  header #icons {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 450px) {
+  header #icons {
+    width: 40%;
+  }
+}

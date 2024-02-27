@@ -6,6 +6,7 @@
 @import './bestsellers.css';
 @import './about-us.css';
 @import './google-maps.css';
+@import './github.css';
 main {
   display: flex;
   align-items: center;

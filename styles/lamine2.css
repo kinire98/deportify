@@ -2,13 +2,16 @@
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
 
-
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .main1 {
-  width: 100%;
+  width: 60%;
   margin-bottom: 100px;
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 /* Estilos para el menú desplegable con botones */

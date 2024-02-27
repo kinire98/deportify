@@ -86,12 +86,10 @@ form {
   justify-content: center;
   flex-direction: column;
   width: 60%;
-  background-color: var(--fondo-header-footer);
   color: var(--letra-header-footer);
   padding: 15px;
   border-radius: 2rem;
   margin-top: 15px;
-  box-shadow: 0 0 15px var(--fondo-header-footer);
   font-size: 1.2em;
 }
 form > div {
@@ -104,14 +102,19 @@ form > div {
   width: 100%;
   padding-block: 10px;
 }
+form i {
+  font-weight: bold;
+}
 form > div > input, form > div > textarea {
   width: 450px;
   color: var(--fondo-header-footer);
   background-color: var(--letra-header-footer);
   font-size: 1.1em;
   font-weight: bold;
+  box-shadow: 0 0 15px var(--fondo-header-footer);
 }
 form > button { 
+  box-shadow: 0 0 15px var(--fondo-header-footer);
   background-color: var(--fondo-header-footer);
   color: var(--letra-header-footer);
   border: 1px solid var(--letra-header-footer);

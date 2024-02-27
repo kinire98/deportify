@@ -112,6 +112,9 @@ form > div > input, form > div > textarea {
   font-weight: bold;
   box-shadow: 0 0 15px var(--fondo-header-footer);
 }
+form > div > textarea {
+  transition: none; 
+}
 form > button { 
   box-shadow: 0 0 15px var(--fondo-header-footer);
   background-color: var(--fondo-header-footer);

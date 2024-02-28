@@ -1,4 +1,3 @@
-@import './root.css';
 @import '../components/header/header.css';
 @import '../components/footer/footer.css';
 @import './index/landing-image.css';
@@ -58,8 +57,91 @@ main p {
 .img-txt p {
   width: 45%;
 }
+#marketplace-subscription {
+  padding-block: 30px;
+}
+#marketplace-subscription a {
+  padding: 10px 50px;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  display: block;
+  border-radius: 5rem;
+  border: 1px solid var(--fondo-header-footer);
+}
+#marketplace-subscription a:hover {
+  color: var(--fondo-header-footer);
+  background-color: var(--letra-header-footer);
+  border: 1px solid var(--letra-header-footer);
+}
+#marketplace-subscription a:active {
+  background-color: transparent;
+}
 a i {
   margin-left: 15px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  color: var(--letra-header-footer);
+  padding: 15px;
+  border-radius: 2rem;
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-block: 10px;
+}
+form i {
+  font-weight: bold;
+}
+form > div > input, form > div > textarea {
+  width: 450px;
+  color: var(--fondo-header-footer);
+  background-color: var(--letra-header-footer);
+  font-size: 1.1em;
+  font-weight: bold;
+  box-shadow: 0 0 15px var(--fondo-header-footer);
+}
+form > div > textarea {
+  transition: none; 
+}
+form > button { 
+  box-shadow: 0 0 15px var(--fondo-header-footer);
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer);
+  border: 1px solid var(--letra-header-footer);
+  margin-top: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+form > button:hover {
+  color: var(--fondo-header-footer);
+  background-color: var(--letra-header-footer);
+}
+form > button:active {
+  background-color: var(--fondo);
+}
+#beauty-2 {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  background-color: var(--alt-1);
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 3rem;
+  transform: rotate(-45deg);
+  bottom: -2400px;
+  left: -450px;
 }
 @media screen and (max-width: 1040px) {
   .img-txt {

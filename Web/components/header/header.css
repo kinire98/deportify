@@ -14,6 +14,8 @@ header {
   position: fixed;
   z-index: 999;
   top: 0;
+  box-shadow: 0 0 20px var(--fondo-header-footer),
+  0 0 20px var(--fondo-header-footer);
 }
 header img {
   width: 50px;

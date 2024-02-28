@@ -1,0 +1,22 @@
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+main a {
+  padding: 15px 30px;
+  background-color: var(--fondo-header-footer);
+  color: var(--letra-header-footer) !important;
+  font-size: 1.2em;
+  border-radius: 3rem;
+  margin-top: 15px;
+}
+main a:hover {
+  color: var(--fondo-header-footer) !important;
+  background-color: var(--letra-header-footer);
+}

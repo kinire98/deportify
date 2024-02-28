@@ -28,7 +28,4 @@ Preguntas frecuentes -> lamine2.html
 Politica de cookies  
 Terminos y condiciones   
 ## Iker
-Sección deportes urbanos -> iker.html  
-segunda vida -> iker2.html  
-header  
-footer  
+Por mi parte todo terminado

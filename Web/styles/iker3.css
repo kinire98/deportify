@@ -1,0 +1,46 @@
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+@import '../components/section/css_modules/products-grid.css';
+main {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+#search input {
+  width: 80%;
+  border: 1px solid var(--letra-header-footer);
+  padding: 15px 30px;
+  border-radius: 5rem;
+  height: 100%;
+  font-size: 1.5em;
+}
+#search i {
+  border: 1px solid var(--letra-header-footer);
+  border-radius: 5rem;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: var(--letra-header-footer);
+}
+hr {
+  width: 90%;
+  height: 0;
+  border: 1px solid var(--letra-header-footer);
+}
+#grid {
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  #search {
+    width: 80%;
+  } 
+}

@@ -3,6 +3,9 @@
   width: 500px;
   height: 600px;
   margin-block: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #images > img {
@@ -10,6 +13,7 @@
   position: absolute; 
   transition: all .3s;
   max-height: 600px;
+  max-width: 600px;
 }
 
 #visible, #images:hover > #hover {
@@ -20,12 +24,8 @@
   opacity: 0;
   visibility: hidden;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   #images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
+    width: 100%;   
   }
 }

@@ -1,14 +1,15 @@
 #images { 
   position: relative;
   width: 500px;
-  height: 500px;
+  height: 600px;
+  margin-block: 150px;
 }
 
 #images > img {
-  width: 500px;
-  height: auto;
+  min-width: 400px;
   position: absolute; 
   transition: all .3s;
+  max-height: 600px;
 }
 
 #visible, #images:hover > #hover {
@@ -20,7 +21,11 @@
   visibility: hidden;
 }
 @media screen and (max-width: 900px) {
-  #images > img {
-    right: 50px;
-  } 
+  #images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+  }
 }

@@ -21,7 +21,8 @@ Sección deportes montaña -> diego.html
 Usuario (usar display:flex;) -> diego2.html  
 ## Iván
 Sección deportes acuáticos -> ivan.html  
-Sobre nosotros -> ivan2.html  
+Sobre nosotros -> ivan2.html
+Por mi parte terminaod  
 ## Lamine
 Sección equipamiento deportivo -> lamine.html  
 Preguntas frecuentes -> lamine2.html  

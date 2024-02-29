@@ -1,0 +1,17 @@
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+@import '../components/section/css_modules/products-grid.css';
+main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+h1 * {
+  margin-inline: 15px;
+}
+hr, #grid {
+  width: 80%;
+}

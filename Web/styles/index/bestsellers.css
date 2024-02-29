@@ -48,6 +48,19 @@
     height: 1200px;
   }
 }
+/*Para los productos de la seccion de bestsellers, no para las de seccion*/
+@media screen and (max-width: 430px) {
+  .product, .product img {
+    width: 250px;
+  }
+  .product {
+    left: 0px;
+  }
+  .product img {
+    left: 50px;
+    top: 100px;
+  }
+}
 #mountain  {
   animation: mountain 30s linear infinite;
 }

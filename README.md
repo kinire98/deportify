@@ -21,14 +21,12 @@ Sección deportes montaña -> diego.html
 Usuario (usar display:flex;) -> diego2.html  
 ## Iván
 Sección deportes acuáticos -> ivan.html  
-Sobre nosotros -> ivan2.html  
+Sobre nosotros -> ivan2.html
+Por mi parte terminado  
 ## Lamine
 Sección equipamiento deportivo -> lamine.html  
 Preguntas frecuentes -> lamine2.html  
 Politica de cookies  
 Terminos y condiciones   
 ## Iker
-Sección deportes urbanos -> iker.html  
-segunda vida -> iker2.html  
-header  
-footer  
+Por mi parte todo terminado

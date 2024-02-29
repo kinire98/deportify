@@ -22,7 +22,7 @@ Usuario (usar display:flex;) -> diego2.html
 ## Iván
 Sección deportes acuáticos -> ivan.html  
 Sobre nosotros -> ivan2.html
-Por mi parte terminaod  
+Por mi parte terminado  
 ## Lamine
 Sección equipamiento deportivo -> lamine.html  
 Preguntas frecuentes -> lamine2.html  

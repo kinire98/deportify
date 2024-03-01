@@ -1,5 +1,8 @@
-#google-maps, #google-maps *  {
+#google-maps {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+#google-maps * {
+  width: 100%;
 }

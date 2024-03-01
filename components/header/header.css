@@ -1,4 +1,3 @@
-@import '../../styles/colors.css';
 @import '../../styles/root.css';
 
 
@@ -70,6 +69,7 @@ header #icons > a > i {
 }
 @media screen and (max-width: 450px) {
   header #icons {
-    width: 40%;
+    width: 55%;
+    padding-right: 15px;
   }
 }

@@ -4,6 +4,8 @@
     justify-content: center;
     flex-direction: column;
     width: 90%;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 #about-us > div {
     display: flex;

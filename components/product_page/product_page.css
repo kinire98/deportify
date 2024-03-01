@@ -1,4 +1,3 @@
-@import '../../styles/root.css';
 @import '../header/header.css';
 @import '../footer/footer.css';
 @import './css_modules/images.css';
@@ -17,3 +16,4 @@ main {
     margin-block: 15px;
   }
 }
+

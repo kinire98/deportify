@@ -94,7 +94,7 @@ form {
 form > div {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   text-align: center;
   position: relative;
@@ -102,21 +102,21 @@ form > div {
   padding-block: 10px;
 }
 form i {
-  font-weight: bold;
+  font-weight: bolder;
 }
 form > div > input, form > div > textarea {
   width: 450px;
   color: var(--fondo-header-footer);
-  background-color: var(--letra-header-footer);
   font-size: 1.1em;
   font-weight: bold;
-  box-shadow: 0 0 15px var(--fondo-header-footer);
+  margin-left: 15px;
+  border: 1px solid var(--letra-header-footer);
 }
 form > div > textarea {
-  transition: none; 
+  transition: none;
+  max-width: 450px;
 }
 form > button { 
-  box-shadow: 0 0 15px var(--fondo-header-footer);
   background-color: var(--fondo-header-footer);
   color: var(--letra-header-footer);
   border: 1px solid var(--letra-header-footer);
